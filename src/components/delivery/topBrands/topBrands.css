@@ -1,0 +1,41 @@
+/* for Top brand for you heading */
+.top-brands {
+  padding-top: 30px;
+}
+
+/* cover of topBrand img */
+.top-brands-cover {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: var(--primary-bg);
+  box-shadow: var(--collection-shadow);
+  border: 0.5px solid var(--border-white);
+}
+
+/* css for img to fit to the cover */
+.top-brands-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.top-brands-name{
+  line-height: 22px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0px 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.time{
+  line-height: 10px;
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+  text-align: center;
+  font-size: 14px;
+  margin: 10px 0px;
+}

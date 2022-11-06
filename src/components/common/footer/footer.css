@@ -1,0 +1,142 @@
+.footer-content {
+    background: var(--secondary-bg);
+    width: 100%;
+    padding: 50px 0px;
+  }
+  
+
+.footer{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.country{
+    display: flex;
+}
+
+.blogs-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+h6{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 35px 0px 12px;
+}
+
+a, p{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(105, 105, 105);
+    margin: 5px 0px;
+}
+
+.socials{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.soclink{
+    color: black;
+    margin-right: 6px;
+    font-size: 21px;
+}
+
+.app-store{
+    margin-top: 20px;
+    height: 40px;
+}
+
+.app-store-image, .gpay-image{
+    object-fit: cover;
+    border-radius: 5px;
+    width: 130px;
+    height: 100%;
+}
+
+.gpay{
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+}
+
+
+.country-language{
+    position: relative;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.country-opt{
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content: center;
+       
+}
+
+.country-select{
+    border-style: solid;
+    border-width: thin;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+    
+}
+
+.india-flag{
+    width: 25px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.angle-down{
+    line-height: 1px;
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+
+.country-name{
+    font-size: 18px;
+    color: rgb(28, 28, 28);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px 5px 0px 0px;
+    font-weight: 400;
+}
+
+.language-select{
+    border-style: solid;
+    border-width: thin;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+}
+
+.language-globe{
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.footer-bottom-line{
+    margin-top: 50px;
+    border-width: 1px 0px 0px;
+    border-top-color: rgb(207, 207, 207)
+}
+
+.purpose{
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 23px;
+    color: rgb(90, 90, 90);
+}
